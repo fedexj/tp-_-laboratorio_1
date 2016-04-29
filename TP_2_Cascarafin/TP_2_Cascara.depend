@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1461604349 source:d:\utn\programacion i y lab\tps\tp_2_cascaraz\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+
+1461602722 d:\utn\programacion i y lab\tps\tp_2_cascaraz\tp_2_cascara\funciones.h
+
+1461604338 source:d:\utn\programacion i y lab\tps\tp_2_cascaraz\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"input.h"
+
+1461540055 d:\utn\programacion i y lab\tps\tp_2_cascaraz\tp_2_cascara\input.h
+
+1461540055 source:d:\utn\programacion i y lab\tps\tp_2_cascaraz\tp_2_cascara\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1461604350 source:f:\programacion i y lab\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+
+1461602724 f:\programacion i y lab\tp_2_cascara\funciones.h
+
+1461628232 source:c:\users\alumno.lab4pc\desktop\tp_2_cascara111\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"input.h"
+
+1461627777 c:\users\alumno.lab4pc\desktop\tp_2_cascara111\funciones.h
+
+1461540056 c:\users\alumno.lab4pc\desktop\tp_2_cascara111\input.h
+
+1461540056 source:c:\users\alumno.lab4pc\desktop\tp_2_cascara111\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1461627777 source:c:\users\alumno.lab4pc\desktop\tp_2_cascara111\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+
+1461540056 source:c:\users\fedemir\desktop\tp_2_cascara111\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1461719104 source:c:\users\fedemir\desktop\tp_2_cascara111\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+	"input.h"
+
+1461719730 c:\users\fedemir\desktop\tp_2_cascara111\funciones.h
+
+1461719104 source:c:\users\fedemir\desktop\tp_2_cascara111\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"input.h"
+
+1461540056 c:\users\fedemir\desktop\tp_2_cascara111\input.h
+
