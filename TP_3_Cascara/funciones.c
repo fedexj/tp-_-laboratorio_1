@@ -4,104 +4,7 @@
 #include "funciones.h"
 #include "input.h"
 
-/*void isEmptyInitFc(sMovie lista[],int length)
-{
-    if (lista!=NULL && length>=1)
-    {
-        int i;
-        for (i=0; i<length;i++)
-                {
-                    lista[i].isEmpty = 1;
-                }
-    }
-    return ;
-}*/
 
-/*sMovie agregarPelicula(int indexAux)
-{
-    sMovie movieAux;
-    int auxIntdur, auxIntpuntaje, auxStrtitulo, auxStrDescr, auxStrGen, auxStrLink;
-
-    do
-    {
-        auxStrtitulo=getString(movieAux.titulo, "ingrese titulo:\n", "error, dato invalido\n", 1, 20);
-        auxStrGen=getString(movieAux.genero, "ingrese genero:\n", "error, dato invalido\n", 1, 20);
-        auxIntdur=getInt(&movieAux.duracion, "ingrese duracion en minutos","error, dato invalido\n" , 1, 360);
-        auxStrDescr=getString(movieAux.descripcion, "ingrese descripcion:\n", "error, dato invalido\n", 1, 50);
-        auxIntpuntaje=getInt(&movieAux.puntaje, "ingrese puntaje (1-100)","error, dato invalido\n", 1, 100);
-        auxStrLink=getString(movieAux.linkImagen, "ingrese link a imagen:\n", "error, dato invalido\n", 1, 50);
-        movieAux.movieId=indexAux;
-
-    }while(auxStrtitulo!=0 || auxStrGen!=0 || auxIntdur!=0 || auxStrDescr!=0 || auxIntpuntaje!=0 || auxStrLink!=0);
-
-    return movieAux;
-}
-
-int saveMovieFc(sMovie auxAddMovie, char* fileName)
-{
-    int auxReturn=0;
-    FILE* file= fopen(fileName, "ab");
-
-    if (file==NULL)
-    {
-        printf("Error al intentar acceder al archivo\n");
-    }
-    else
-    {
-        fwrite(&auxAddMovie, sizeof(sMovie), MAX, file);
-        printf("\nContacto guardado\n");
-        fclose(file);
-        auxAddMovie.isEmpty=0;
-        auxReturn = 1;
-    }
-    return auxReturn;
-}
-
-void showRegisterFc(char* fileName)
-{
-    FILE* file= fopen(fileName, "rb");
-
-    if (file==NULL)
-    {
-        printf("Error al intentar acceder al archivo\n");
-
-    }
-    else
-    {
-        sMovie movieAux;
-        printf("%-20s %-30s %-10s %-10s %-10s %-10s %-10s\n\n", "Titulo", "genero", "descripcion", "duracion", "Puntaje", "link", "ID");
-        while (fread(&movieAux, sizeof(sMovie),MAX, file))
-        {
-            printf("%-20s %-30s %-30s %-10d %-10d %-20s %-10d \n", movieAux.titulo, movieAux.genero,movieAux.descripcion, movieAux.duracion, movieAux.puntaje, movieAux.linkImagen, movieAux.movieId);
-
-        }
-        fclose(file);
-        printf("\n\n");
-
-    }
-}
-
-int borrarPelicula(sMovie movie)
-{
-
-}
-
-int emptyCheckFc(sMovie lista[], int length)
-{
-    int indexReturn=-1;
-    int i;
-
-    for (i=0; i<length;i++)
-            {
-                if (lista[i].isEmpty == 1)
-                {
-                    indexReturn=i;
-                    break;
-                }
-            }
-    return indexReturn;
-}
-*/
 
 int addMovieFc(sMovie* lista)
 {
@@ -335,6 +238,10 @@ void generarPagina(sMovie* lista)
                   putc(c, htmlFile);
               }
        }while(1);
+       fclose(htmlFile);
+       fclose(pMoviesFile);
+       fclose(htmlEnd);
+       fclose(htmlHeader);
     }
 
 
