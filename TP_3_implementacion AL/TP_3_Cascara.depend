@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1463338665 source:c:\users\fedemir\desktop\tp_3_cascara\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1464310218 source:c:\users\fedemir\desktop\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1465940224 c:\users\fedemir\desktop\tp_3_cascara\funciones.h
+	"ArrayList.h"
+
+1464311274 source:c:\users\fedemir\desktop\tp_3_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"input.h"
+
+1462470756 c:\users\fedemir\desktop\tp_3_cascara\input.h
+
+1465596760 c:\users\fedemir\desktop\tp_3_cascara\arraylist.h
+
+1465940226 source:c:\users\fedemir\desktop\tp_3_cascara0\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1465596760 c:\users\fedemir\desktop\tp_3_cascara0\arraylist.h
+
+1466033807 source:c:\users\fedemir\desktop\tp_3_cascara0\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"input.h"
+
+1466034065 c:\users\fedemir\desktop\tp_3_cascara0\funciones.h
+	"ArrayList.h"
+
+1462470756 c:\users\fedemir\desktop\tp_3_cascara0\input.h
+
+1463338666 source:c:\users\fedemir\desktop\tp_3_cascara0\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1466033494 source:c:\users\fedemir\desktop\tp_3_cascara0\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"ArrayList.h"
+
+1465940226 source:c:\users\cc.rotulos\desktop\pi\tp_3_cascara0\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1465596760 c:\users\cc.rotulos\desktop\pi\tp_3_cascara0\arraylist.h
+
+1466018507 source:c:\users\cc.rotulos\desktop\pi\tp_3_cascara0\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+	"input.h"
+
+1465993564 c:\users\cc.rotulos\desktop\pi\tp_3_cascara0\funciones.h
+	"ArrayList.h"
+
+1462470756 c:\users\cc.rotulos\desktop\pi\tp_3_cascara0\input.h
+
+1463338666 source:c:\users\cc.rotulos\desktop\pi\tp_3_cascara0\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1466018588 source:c:\users\cc.rotulos\desktop\pi\tp_3_cascara0\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"ArrayList.h"
+
